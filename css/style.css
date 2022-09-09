@@ -546,11 +546,11 @@ footer {
       display: flex;
    }
    #form button {
-      border-radius: 10px 0 0 10px;
+      border-radius: 4vw 0 0 4vw;
    }
    #form button[type="submit"] {
-      border-radius: 2.67vw;
-      margin-left: -8px;
+      border-radius: 4vw;
+      margin-left: -10px;
    }
    #form i {
       font-size: 4.27vw;
@@ -559,6 +559,10 @@ footer {
       width: 61.6vw;
       font-size: 4.27vw;
       padding-left: 4vw;
+   }
+   #form input::placeholder {
+      color: #000000;
+      font-weight: 600;
    }
    #filters h2 {
       margin-top: 38px;
