@@ -422,6 +422,10 @@ footer {
    }
    #form button {
       font-size: 12px;
+      border-radius: 1.95vw 0 0 1.95vw;
+   }
+   #form button[type="submit"] {
+      border-radius: 0 1.95vw 1.95vw 0;
    }
    #information p i {
       width: 2.6vw;
@@ -545,13 +549,14 @@ footer {
       border-radius: 10px 0 0 10px;
    }
    #form button[type="submit"] {
-      border-radius: 0 2.67vw 2.67vw 0;
+      border-radius: 2.67vw;
+      margin-left: -8px;
    }
    #form i {
       font-size: 4.27vw;
    }
    #form input {
-      width: 100%;
+      width: 61.6vw;
       font-size: 4.27vw;
       padding-left: 4vw;
    }
